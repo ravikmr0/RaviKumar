@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
-import { BsLinkedin, BsGithub, BsInstagram, BsTwitterX, BsWhatsapp, BsTelephone } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsInstagram, BsWhatsapp, BsTelephone } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -42,7 +45,7 @@ export default function Footer() {
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white"
           aria-label="X (Twitter)"
         >
-          <BsTwitterX className="text-lg" />
+          <FaXTwitter className="text-lg" />
         </a>
 
         <a
